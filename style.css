@@ -1,0 +1,215 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #1B244A
+}
+
+.container{
+    max-width: 700px;
+    /* min-height: 700px; */
+    margin-inline: auto;
+    /* position: relative; */
+    /* border: 1px solid #163650; */
+    border: 1px solid #1B244A;
+    /* background-color: #163650; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    
+    
+}
+
+.box{
+    min-width: 100px;
+     min-height: 100px;
+    /* margin: 2rem; */
+    margin-bottom: 0;
+    display: flex;
+    justify-content:space-around;
+    /* margin-top: 2rem; */
+    /* background-color: #163650;; */
+    color: white;
+    font-size: 1.5rem;
+}
+ .box h1{
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding:10px
+    
+    
+}
+
+  .points{
+    min-width: 50px;
+    min-height: 120px;
+   
+    padding-top: 10px;
+    display: flex;
+    justify-content:center;
+    gap: 1rem;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: #F94F6D;
+    align-items: center;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;                                          
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+
+}
+
+.points-h{
+    display: flex;
+    margin:7px;
+    margin-top: 20px;
+    
+
+}
+
+.btn {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 2px solid rgba(153,170,215,1);
+    border-radius: 5px;
+    margin: 0 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+   
+    
+  }
+
+  .span {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30px;
+    color: rgb(227, 230, 238);
+    /* position: absolute;
+    top: 9px;
+    left: 7px; */
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  /* .clear-btn{
+    position: absolute;
+    bottom: 70px;
+    width: 200px;
+    
+    text-align: center;
+    
+   
+  } */
+
+  .button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    
+    border-radius: 5px;
+    background-color: black;
+    cursor: pointer;
+  }
+  /* .clear-btn {
+    width: 300px;
+     height: 50px; 
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    
+    border: none;
+     padding-top: 5px; 
+     padding-bottom: 5px; 
+    color: black;
+    font-weight: bold;
+      width: 200px; 
+     margin-bottom: 5px;  
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+  /*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+
+
+
+/**
+ * responsive for larger than 413px screen
+ */
+
+ @media (min-width:413px){
+    .container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    max-width: 800px;
+    min-height: 550px;
+    background-color: #163650;
+    border: 1px solid #163650; 
+    position: relative; 
+    }
+
+    .wrapper{
+          margin-top: 5rem;
+    }
+
+    .clear-btn{
+    position: absolute;
+    bottom: 70px;
+    width: 200px;
+    text-align: center;
+    
+   
+  } 
+
+  .button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    
+    border-radius: 5px;
+    background-color: black;
+    cursor: pointer;
+  }
+
+     
+
+   
+
+
+
+
+
+ }

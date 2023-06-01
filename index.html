@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--
+        primary meta tags
+    -->
+    <meta name="title" content="basketball- wanderfull board">
+    <meta name="description" content="This basketball game clock is made by TaHa">
+    <title>Basketball Scoreboard</title>
+    <!-- 
+    - favicon
+     -->
+     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+      <!-- 
+   - custom css link
+    -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <main>
+        <div class="container">
+            <div class="box">
+                <div class="wrapper">
+                <h1>Home</h1>
+                <div id="points-h" class="points">0</div>
+                <div class="points-h">
+                    <div class="btn">
+                        <span onclick="pointsH1()" class="span">+1</span>
+                    </div>
+                    <div class="btn">
+                        <span onclick="pointsH2()" class="span">+2</span>
+                    </div>
+                    <div class="btn">
+                        <span onclick="pointsH3()" class="span">+3</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="wrapper">
+                    <h1>Guest</h1>
+                    <div  id="points-g" class="points">0</div>
+                    <div class="points-h">
+                        <div class="btn">
+                            <span onclick="pointsG1()" class="span">+1</span>
+                        </div>
+                        <div class="btn">
+                            <span onclick="pointsG2()" class="span">+2</span>
+                        </div>
+                        <div class="btn">
+                            <span onclick="pointsG3()" class="span">+3</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div> 
+            <!-- <button onclick="clear()">Clear Every Thing</button> -->
+            <div  id="clear-el"  class="clear-btn">
+                <button onclick="clean()" class="button" >Clear Every Thing</button>
+            </div>
+        </div>
+        <!-- <div class="clear-btn"><button onclick="clear()">Clear Every Thing</button></div> -->
+        
+       
+
+        
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
